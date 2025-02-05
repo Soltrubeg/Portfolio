@@ -1,0 +1,16 @@
+---
+import ProjectCard from "../components/ProjectCard";
+import ProjectList from "../components/ProjectList";
+import "../style.css"
+---
+<html lang="de">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- <meta http-equiv="content-type" content="text/html; charset=utf-8"> -->
+<h1 class="p-10 text-center mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-100 md:text-5xl lg:text-6xl"><span class="underline underline-offset-25 decoration-6 decoration-blue-400 dark:decoration-gray-100">Meine Projekte</span></h1>
+<!-- <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-8">
+  {projects.map((project) => (
+    <ProjectCard {...project} />
+  ))}
+</section> -->
+<ProjectList client:load/>
+</html>

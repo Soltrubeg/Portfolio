@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@import "@fontsource/dm-sans";
+
+body {
+    font-family: "DM Sans";
+    background: linear-gradient(to right, #873555, #c97373);
+    image-rendering: crisp-edges;
+}
