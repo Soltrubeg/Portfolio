@@ -8,6 +8,7 @@ const projects = [
       tools: ["Astro", "React", "Tailwind"],
       date: "Februar 2025",
       link: ".",
+      github: "https://github.com/Soltrubeg/Portfolio",
     },
     {
       title: "Clever Otto",
