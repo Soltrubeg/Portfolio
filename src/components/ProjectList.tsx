@@ -11,6 +11,15 @@ const projects = [
       github: "https://github.com/Soltrubeg/Portfolio",
     },
     {
+      title: "Flow",
+      description: "Node-basiertes Rechensystem welches alles gleichzeitig verarbeitet.",
+      tools: ["Astro", "React", "React-Flow", "Tailwind"],
+      date: "Februar 2025",
+      link: ".",
+      github: "https://github.com/Soltrubeg/Flow",
+      thumbnail: "Projects/flow.png",
+    },
+    {
       title: "Clever Otto",
       description: "Grid-basiertes Gedächtnis-spiel mit einstellbarer Spielfeld-Größe.",
       tools: ["HTML", "CSS", "JavaScript"],

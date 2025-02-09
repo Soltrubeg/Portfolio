@@ -19,6 +19,7 @@ const ProjectCard: React.FC<ProjectProps> = ({ title, description, tools, date, 
       )}
       <h2 className="text-xl font-bold">{title}</h2>
       <p className="text-gray-600">{description}</p>
+      <hr className="m-5 ml-0 mr-0 border-gray-800"></hr>
       <div className="mt-2">
         <span className="text-sm font-semibold text-gray-800">Erstellt mit:</span>
         <ul className="flex flex-wrap gap-2 mt-1">
@@ -39,7 +40,7 @@ const ProjectCard: React.FC<ProjectProps> = ({ title, description, tools, date, 
         href={link}
         target="_blank"
         rel="noopener noreferrer"
-        className="text-blue-500 hover:underline"
+        className="text-gray-800 bg-stone-300 rounded-md p-2 hover:shadow-xs shadow-gray-800 transition duration-300 ease-in-out"
         >
         Zum Projekt
         </a>
