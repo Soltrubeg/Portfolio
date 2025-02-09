@@ -15,7 +15,7 @@ const projects = [
       description: "Node-basiertes Rechensystem welches alles gleichzeitig verarbeitet.",
       tools: ["Astro", "React", "React-Flow", "Tailwind"],
       date: "Februar 2025",
-      link: ".",
+      link: "https://soltrubeg.github.io/Flow/",
       github: "https://github.com/Soltrubeg/Flow",
       thumbnail: "Projects/flow.png",
     },
