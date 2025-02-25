@@ -1,8 +1,15 @@
 @import "tailwindcss";
 @import "@fontsource/dm-sans";
 
+@font-face {
+    font-family: Cyber;
+    src: url("https://assets.codepen.io/605876/Blender-Pro-Bold.otf");
+    font-display: swap;
+  }
+
 body {
-    font-family: "DM Sans";
-    background: linear-gradient(to right, #873555, #c97373);
+    font-family: "Cyber";
+    background: linear-gradient(to bottom, rgba(25, 25, 25, 1), rgba(15, 15, 15, 1)), 
+                radial-gradient(circle, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0.1));
     image-rendering: crisp-edges;
 }
