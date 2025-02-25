@@ -20,6 +20,15 @@ const projects = [
       thumbnail: "Projects/flow.png",
     },
     {
+      title: "Word Bomb",
+      description: "Finde ein deutsches Wort welches zwei Buchstaben in angebener Reihenfolge beinhaltet.",
+      tools: ["Astro", "React", "Tailwind"],
+      date: "Februar 2025",
+      link: "https://soltrubeg.github.io/Word-Bomb/",
+      github: "https://github.com/Soltrubeg/Word-Bomb",
+      thumbnail: "Projects/wordbomb.png",
+    },
+    {
       title: "Clever Otto",
       description: "Grid-basiertes Gedächtnis-spiel mit einstellbarer Spielfeld-Größe.",
       tools: ["HTML", "CSS", "JavaScript"],
